@@ -77,7 +77,7 @@ with st.form("Data Diri"):
     slider_val = st.slider("Pilih Angka")
     checkbox_val = st.checkbox("Setuju")
 
-    Every form must have a submit button.
+    #Every form must have a submit button.
     submitted = st.form_submit_button("Simpan")
     if submitted:
          st.write("Angka dipilih", slider_val, "checkbox", checkbox_val)
