@@ -71,7 +71,7 @@ with col3:
 expander = st.expander("Klik Untuk Detail ")
 expander.write('Anda Telah Membuka Detail')
 
-sidebar 
+#sidebar 
 with st.form("Data Diri"):
     st.write("Area di dalam form")
     slider_val = st.slider("Pilih Angka")
