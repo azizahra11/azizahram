@@ -67,7 +67,7 @@ with col3:
     st.image("https://static.streamlit.io/examples/owl.jpg")
   
 #expander 
-dengan with atau dengan assignment 
+#dengan with atau dengan assignment 
 expander = st.expander("Klik Untuk Detail ")
 expander.write('Anda Telah Membuka Detail')
 
