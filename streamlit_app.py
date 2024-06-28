@@ -19,8 +19,8 @@ def main() :
 # Untuk menulis metric
     st.write('Metrics')
     st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
-if __name__ == '__main__' : 
-    main()
+#if __name__ == '__main__' : 
+    #main()
 
 # Untuk menampilkan Grid -- masih blm tampil
 st.write('Menampilkan Dataframe dengan St AgGrid')
@@ -114,5 +114,5 @@ if 'show_content' in st.session_state and st.session_state['show_content']:
 else:
     st.write("Tidak ada konten untuk ditampilkan.")
   
-#if __name__ == '__main__' : 
-  #main()
+if __name__ == '__main__' : 
+  main()
